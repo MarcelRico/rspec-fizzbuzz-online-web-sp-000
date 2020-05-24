@@ -2,5 +2,7 @@
 # See README.md for instructions on how to do this
 
 def fizzbuzz(n)
-  case
+  str = ""
+  if(n%3)
+    str 
 end
