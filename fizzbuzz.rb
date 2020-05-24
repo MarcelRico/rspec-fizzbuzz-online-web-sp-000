@@ -2,7 +2,16 @@
 # See README.md for instructions on how to do this
 
 def fizzbuzz(n)
-  str = ""
-  if(n%3)
-    str 
+  if (n % 3 != 0) && (n % 5 != 0)
+    return nil
+  else
+    str = ""
+    if(n % 3 == 0)
+      str += "fizz"
+    end
+    if(n % 5 == 0)
+      str+= "buzz"
+    end
+    return str
+  end
 end
