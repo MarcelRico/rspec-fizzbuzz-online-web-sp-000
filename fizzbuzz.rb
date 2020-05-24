@@ -7,10 +7,10 @@ def fizzbuzz(n)
   else
     str = ""
     if(n % 3 == 0)
-      str += "fizz"
+      str += "Fizz"
     end
     if(n % 5 == 0)
-      str+= "buzz"
+      str+= "Buzz"
     end
     return str
   end
